@@ -17,5 +17,14 @@ public class PerahuAksi {
         System.out.println(p.getWarna());
         System.out.print("Harganya \t: ");
         System.out.println(p.getHarga());
+        
+        PerahuMotor pm= new PerahuMotor();
+        pm.setBahan("Baja");
+        pm.setWarna("Putih");
+        pm.setHarga(100000000);
+        pm.setJenisMotor("Speedboat");
+        pm.cetakInfo();
+        System.out.println("Jenis \t:"+pm.getJenisMotor());
+        pm.throttie();
     }
 }
