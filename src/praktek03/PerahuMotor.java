@@ -7,4 +7,14 @@ public class PerahuMotor extends Perahu {
     void throttie(){
         System.out.println("SpeedCenggg...");
     }
+
+    public String getJenisMotor() {
+        return jenisMotor;
+    }
+
+    public void setJenisMotor(String jenisMotor) {
+        this.jenisMotor = jenisMotor;
+    }
+    
+    
 }
