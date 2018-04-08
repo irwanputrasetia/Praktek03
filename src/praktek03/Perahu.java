@@ -1,9 +1,9 @@
 package praktek03;
     
 public class Perahu {
-   String bahan;
-   String warna;
-   double harga;
+  private String bahan;
+  private String warna;
+  private double harga;
    
    void cetakInfo(){
        System.out.println("Merk \t:  "+bahan+"\n"+
