@@ -10,5 +10,12 @@ public class PerahuAksi {
         p.setHarga(5000);
         
         p.cetakInfo();
+        
+        System.out.print("Bahannya \t: ");
+        System.out.println(p.getBahan());
+        System.out.print("Warnanya \t: ");
+        System.out.println(p.getWarna());
+        System.out.print("Harganya \t: ");
+        System.out.println(p.getHarga());
     }
 }
